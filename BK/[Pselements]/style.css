@@ -1,0 +1,52 @@
+@charset "utf-8" ;
+
+
+
+body{
+
+    font-family: sans-serif;
+
+}
+
+a{
+
+    color: rgb(165, 42, 42);
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+a:visited{
+
+    color: black;
+
+}
+
+a:hover{
+
+    background-color: wheat;
+    color: blueviolet;
+    text-decoration: underline;
+
+}
+
+a:active{
+
+    color: black;
+
+
+}
+
+a::after{
+
+    content:  '[link]' ;
+    display: inline-block;
+
+}
+
+h1:hover{
+
+    color: blueviolet;
+    
+}
+

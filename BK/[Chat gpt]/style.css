@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+
+/* Fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,700');
+
+/* Cores pastéis */
+:root {
+  --cor-primaria: #c8b6dd;
+  --cor-secundaria: #b5d8cc;
+  --cor-terciaria: #e6d0aa;
+}
+
+/* Estilos para o body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Estilos para o header */
+header {
+  background-color: var(--cor-primaria);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+header a {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+/* Estilos para o main */
+main {
+  padding: 5rem 1rem 1rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Estilos para o section */
+section {
+  background-color: var(--cor-secundaria);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  width: calc(33.33% - 1rem);
+  position: relative;
+  overflow: hidden;
+}
+
+section:hover::before {
+  transform: translateY(-100%);
+}
+
+section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: transform 0.3s ease-in-out;
+}
+
+section h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+section p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/* Estilos para o footer */
+footer {
+  background-color: var(--cor-terciaria);
+  padding: 1rem;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}

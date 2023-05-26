@@ -1,0 +1,129 @@
+@charset "UTF-8" ; 
+
+body{
+    background-color: #7c7a7a;
+    margin: 10px 16px 10px 16px;
+}
+
+header{
+
+    background-color: #ffffff;
+    margin: 20px 0px 20px 0;
+    padding: 0px 0px 20px 0px;
+
+}
+
+a{
+    color: #41faf1;
+    text-decoration: none;
+    font-size: 35px;
+    background-color: #90a3a31f;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    text-align: center;
+    border: 5px solid #47b5ff;
+    font-size: 40px;
+    margin: 12px;
+
+}
+
+a#YT:hover{
+    border: 5px solid #000000;
+    background-image: linear-gradient( to bottom right , #ff0000, #e60000, #ff4444);
+    color: #ffffff;
+    font-weight: bold;
+    margin: 4px;
+    padding:4px;
+    text-align: center;
+
+
+}
+
+a#DC:hover{
+    border: 5px solid #000000;
+    background-image: linear-gradient( to right , #072d94, #066ce0, #12048f);
+    color: #ffffff;
+    font-weight: bold;
+    margin: 4px;
+    padding:4px;
+    text-align: center;
+
+
+}
+
+a#GG:hover{
+    border: 5px solid #000000;
+    background-color: #32A639;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 4px;
+    padding:4px;
+    text-align: center;
+
+
+}
+
+a#IG:hover{
+    border: 5px solid #000000;
+    background-image: linear-gradient( to bottom right ,#7765AB, #D6436C, #F1BC88);
+    color: #ffffff;
+    font-weight: bold;
+    margin: 4px;
+    padding:4px;
+    text-align: center;
+
+
+}
+
+h1{
+    text-align: center;
+
+
+}
+
+h2{
+    text-align: center;
+
+
+}
+
+section{
+    margin: 20px 0px 20px 0;
+    background-color: #f0f0f0;
+    margin: 0px 0px 0px 0px;
+    padding: 5px;
+
+
+
+}
+
+p{
+    text-align: justify;
+
+    
+}
+
+
+
+
+
+
+
+
+footer{
+
+    text-align: center;
+    background-color: #d3d3d3;
+    margin: 11px 0px 11px 0px;
+    padding: 1px 1px 1px 1px ;
+    width: 898px;
+    height 
+
+}
+
+
+#FF09AB (cor principal)
+#FF47C1
+#FF7DD7
+#FFB3ED
+#FFE9FF

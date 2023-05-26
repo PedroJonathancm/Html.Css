@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'TT';
+    src: url(fonts/Dosis/Dosis-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+    font-size:medium;
+}
+
+@font-face {
+    font-family: 'BN';
+    src: url(fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LR' ;
+    src: url(fonts/Lora/Lora-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+
+    background-color: #000000;
+
+}
+
+h1{
+    font-family: BN;
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+}
+
+h2{
+   
+    font-family: BN;
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+}
+
+h2#not{
+   
+    font-family: BN;
+    color: #ffffff;
+    font-size: 25px;
+    text-align: left;
+}
+
+h3{
+   
+    font-family: BN;
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+}
+
+p{
+    font-family: LR;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+article{
+
+    font-family: LR;
+    color: #ffffff;
+    font-size: 15px;
+
+}
+
+nav{
+ 
+    
+    color: #ffffff;
+    text-align: center;
+
+}
+
+aside{
+
+    font-family: LR;
+    color: #2f00ff;
+    font-size: 12px;
+
+}
+
+aside#nout{
+
+    font-family: LR;
+    color: #ff0000;
+    font-size: 12px;
+
+}
+
+footer{
+
+    font-family: LR;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+}
+
+

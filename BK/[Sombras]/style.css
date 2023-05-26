@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+
+
+/* Definir o estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffff1da;
+  }
+  
+  /* Estilo para o cabeçalho */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Estilo para o título principal */
+  h1 {
+    margin: 0;
+    text-align: center;
+    
+  }
+  
+  /* Estilo para a navegação */
+  nav{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 4px 2px #7575754f; 
+  }
+
+  a{
+
+    color: #ffffff  ;
+    text-decoration: none;
+    padding: 0px 5px 0px 5px;
+    text-align: center;
+    
+
+  }
+  
+  /* Estilo para a seção de notícias */
+  #Noticias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  /* Estilo para cada artigo */
+  article {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    max-width: 600px;
+    box-shadow: 1px 1px 10px -5px #79797956;
+    border-radius: 15px;
+    border: 0.5px solid #00000055;
+  }
+  
+  /* Estilo para o título do artigo */
+  article h2 {
+    margin: 0;
+  }
+  
+  /* Estilo para o texto do artigo */
+  article p {
+    margin: 10px 0;
+  }
+  
+  /* Estilo para o rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  

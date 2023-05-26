@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'jungle';
+    src: url(../fonts/jungle.otf);
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url(../fonts/bebas.ttf);
+}
+
+/*Global*/
+*{
+padding: 0px;
+margin: 0px;
+
+}
+
+html{
+    background-color: var(--background);
+
+}
+
+/*Variaveis*/
+:root{
+    /*Paleta 1*/
+    --cor1:#7A6C5D      ;
+    --cor2:#2A3D45      ;
+    --cor3:#DDC9B4      ;
+    --cor4:#BCAC9B      ;
+    --cor5:#C17C74      ;
+    --branco:#ffffff    ;
+    --preto:#000000     ;
+    --background:#cec7c74b  ;
+
+    /*Fontes*/
+    --fonte-titulo-sub:'bebas', Arial, Helvetica, sans-serif ;
+    --fonte-titulo-principal: 'jungle' , Arial, Helvetica, sans-serif ;
+    --fonte-padrao: Arial, Helvetica, sans-serif ;
+
+}
+
+/*Semantico*/
+header{
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    font-family: var(--fonte-titulo-principal);
+    height:150px;
+    text-align: center;
+    display: auto;
+    font-size: 50px;
+
+    color: var(--cor2);
+
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+a:visited{
+    background-color: var(--cor4);
+    text-align: justify;
+    height: 60px;
+    color: var(--cor2);
+
+}
+
+a.link-externo{
+    background-color: var(--cor4);
+    
+    padding: 3px;
+    border-radius: 3px;
+    
+
+}
+
+a.link-externo::after{
+    background-color: var(--cor4);
+    content: "\1F517";
+    
+
+}
+
+nav{
+    background-color: var(--cor4);
+    text-align: left;
+    height: 60px;
+    color: var(--cor2);
+    
+    
+    
+}
+
+nav > a{
+    text-decoration: none;
+    font-family: var(--fonte-padrao);
+    display: inline-block;
+    margin: 9px;
+    padding: 7px;
+
+}
+
+nav > a:hover{
+    margin: 9px;
+    padding: 7px;
+    background-color: #bbb6b0d2;
+    border-radius: 6px;
+
+    color: var(--cor2);
+    color: var(--branco);
+    transition: 0.3s;
+
+}
+
+main{
+    background-color:var(--branco);
+    display: block;
+    
+
+    max-width: 1200px;
+    min-width: 50px;
+    margin: auto;
+    padding: 25px;
+
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 2px 2px 15px #00000020;
+}
+
+main > h1{
+    font-family: var(--fonte-titulo-sub);
+    font-size: 35px;
+    margin-bottom: 12px;
+    
+
+}
+
+/*A-Semantico*/
+
+p{
+    font-size: 19px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: var(--background);
+    font-size: 20px;
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    color:var(--cor2);
+
+}
