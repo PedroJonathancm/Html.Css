@@ -1,0 +1,46 @@
+/*Regras @ */
+@charset "UTF8";
+
+
+
+
+/*Variaveis*/
+:root{
+    /*background colors*/
+    --background-padrao:#0f0f0f; 
+
+    /*Paleta Cinza*/
+    --corc1: #D3D3D3 ;
+    --corc2: #C0C0C0 ;
+    --corc3: #808080 ;
+    --corc4: #696969 ; 
+    --corc5: #708090 ;
+    --corc5: #2F4F4F ;
+
+    /*Paleta Viva*/
+    --corv1: #E61001 ;
+    --corv2: #FF392D ;
+    --corv3: #FF6D68 ;
+    --corv4: #FFA398 ;
+    --corv5: #FFD4D1 ;
+
+
+
+
+
+}
+
+/*A-semantico*/
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html{
+    background-color:var(--background-padrao);
+
+}
+
+
+
